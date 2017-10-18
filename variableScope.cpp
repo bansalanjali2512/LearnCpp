@@ -6,9 +6,9 @@ int globalVar; //global variable
 int main () {
    int localVar1, localVar2; //local variables
  
-   localVar1=20;
-   localVar2=30;
-   globalVar=localVar1+localVar2;
+   localVar1 = 20;
+   localVar2 = 30;
+   globalVar = localVar1 + localVar2;
   
    cout << "Values Are : \n ";
    cout << "globalVar : " << globalVar << "\n";
