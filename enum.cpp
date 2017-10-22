@@ -2,11 +2,30 @@
 using namespace std;
 
 enum weekDays {
-  mon=1, tue, wed, thu, fri, sat, sun
+	
+  	mon=1, 
+  	tue,
+  	wed, 
+  	thu, 
+  	fri, 
+  	sat, 
+  	sun
 };
 
 enum months {
-  jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, decm
+	
+  	jan=1, 
+	feb, 
+	mar, 
+	apr, 
+	may, 
+	jun, 
+	jul, 
+	aug, 
+	sep, 
+	oct, 
+	nov, 
+	decm
 };
 
 int main(){
