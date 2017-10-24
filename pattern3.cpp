@@ -15,7 +15,8 @@ int main() {
   cout << "Enter number of rows you want to print: ";
   cin >> nRows;
   if (nRows < 0) {
-    cout << "Oops..Enter a positive number..!\n";
+    cerr << "Oops..Enter a positive number..!\n";
+    //cerr is used to output error messages only. It works as same as cout.
     goto label;
   }
 
