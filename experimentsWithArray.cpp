@@ -22,11 +22,15 @@ int main() {
   cout << endl;
 
   //fourth
-  int *arr2;
-  int arr3[4];
-  arr2=arr3;
-  cout << "\nsizeof(arr2) where arr2 is int *arr2: " << sizeof(arr2);
-  cout << "\nsizeof(arr3) where arr3 is int arr3[4]: " << sizeof(arr3);
+  int arr2[4];
+  cout << "\nsizeof(arr2) where arr2 is int arr2[4]: " << sizeof(arr2);
+
+  //fifth
+  int *arr3;
+  arr3=arr2;
+  cout << "\nsizeof(arr3) where arr3 is int *arr3: " << sizeof(arr3);
+  cout << "\nsizeof(*arr3) where arr3 is int *arr3=arr2:" << sizeof(*arr3);
+
 
   return 0;
 }
