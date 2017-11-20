@@ -21,6 +21,13 @@ int main() {
   cout << "\narr1[-1] after assigning value: " << arr1[-1];
   cout << endl;
 
+  //fourth
+  int *arr2;
+  int arr3[4];
+  arr2=arr3;
+  cout << "\nsizeof(arr2) where arr2 is int *arr2: " << sizeof(arr2);
+  cout << "\nsizeof(arr3) where arr3 is int arr3[4]: " << sizeof(arr3);
+
   return 0;
 }
 
