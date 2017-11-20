@@ -45,7 +45,8 @@ int main() {
     cout << arr5[i] << " ";
   }
 
-
+  //eighth
+  cout << "\narr1[3/2]: " << arr1[3/2];
 
   return 0;
 }
