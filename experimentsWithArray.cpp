@@ -38,6 +38,13 @@ int main() {
     cout << arr4[i] << " ";
   }
 
+  //seventh
+  int arr5[5]={};
+  cout << "\narr5[5]={} is: ";
+  for (int i = 0; i < 5; i++) {
+    cout << arr5[i] << " ";
+  }
+
 
 
   return 0;
