@@ -31,6 +31,14 @@ int main() {
   cout << "\nsizeof(arr3) where arr3 is int *arr3: " << sizeof(arr3);
   cout << "\nsizeof(*arr3) where arr3 is int *arr3=arr2:" << sizeof(*arr3);
 
+  //sixth
+  int arr4[5]={1,2,3};
+  cout << "\narr4[5]={1,2,3} is: ";
+  for (int i = 0; i < 5; i++) {
+    cout << arr4[i] << " ";
+  }
+
+
 
   return 0;
 }
