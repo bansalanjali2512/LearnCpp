@@ -48,6 +48,12 @@ int main() {
   //eighth
   cout << "\narr1[3/2]: " << arr1[3/2];
 
+  //deleting allocated memory
+  delete []arr1;
+  delete []arr2;
+  delete []arr3;
+  delete []arr4;
+  delete []arr5;
+
   return 0;
 }
-
