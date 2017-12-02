@@ -1,3 +1,5 @@
+//This program depicts the use of call by pointer.
+
 #include <iostream>
 using namespace std;
 
