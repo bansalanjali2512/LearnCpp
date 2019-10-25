@@ -11,7 +11,8 @@ int main () {
    globalVar = localVar1 + localVar2;
   
    cout << "Values Are : \n ";
-   cout << "globalVar : " << globalVar << "\n";
+   cout << "globalVar : " << ::globalVar << "\n";
+   //global variables are accesed with :: scope resolution operator.
    cout << "localVar1 : " << localVar1 << "\n";
    cout << "localVar2 : " << localVar2 << "\n";
    
