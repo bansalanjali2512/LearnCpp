@@ -11,12 +11,12 @@ using namespace std;
 int main() {
   int nRows;
 
-  label:
   cout << "Enter number of rows you want to print: ";
   cin >> nRows;
-  if (nRows < 0) {
+  while(nRows < 0){
     cout << "Oops..Enter a positive number..!\n";
-    goto label;
+    cout << "Enter again: ";
+    cin >> nRows;
   }
 
   int nSpace=nRows-1;
